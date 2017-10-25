@@ -15,7 +15,7 @@
   "scripts": {
     "start-js": "react-scripts start",
     "start": "react-scripts start",
-    "dev": "npm-run-all -p watch-css start-js",
+    "start-dev": "npm-run-all -p watch-css start-js",
     "build-dev": "npm run build-css && react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
