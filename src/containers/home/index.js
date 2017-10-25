@@ -2,7 +2,9 @@ import React from 'react'
 
 const Home = props => (
   <div className="home">
-    <h1>Come Drink Stuff</h1>
+   <div className="top-banner">
+      <h1>Come Drink Stuff</h1>
+   </div>
   </div>
 );
 

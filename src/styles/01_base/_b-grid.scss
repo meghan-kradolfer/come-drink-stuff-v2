@@ -5,6 +5,7 @@
 
 %col {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .col-12 {
@@ -15,6 +16,11 @@
 .col-10 {
   @extend %col;
   width: 83.3%;
+}
+
+.col-9 {
+  @extend %col;
+  width: 75%;
 }
 
 .col-6 {

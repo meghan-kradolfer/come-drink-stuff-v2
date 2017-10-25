@@ -6,10 +6,10 @@ class Header extends React.Component {
     return (
       <header>
         <div className="row">
-          <div className="col-6">
-            <IconMug />
+          <div className="col-3">
+            <img src="assets/img/logo.png" alt="Come Drink Stuff" />
           </div>
-          <nav className="col-6">
+          <nav className="col-9">
             {this.props.children}
           </nav>
         </div>

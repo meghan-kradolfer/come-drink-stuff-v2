@@ -1,10 +1,11 @@
 import React from 'react'
 
 const WhoWeAre = () => (
-  <div>
-    <h1>WhoWeAre</h1>
-    <p>Did you get here via Redux?</p>
+  <div className="who-we-are">
+   <div className="top-banner">
+      <h1>Who we are</h1>
+   </div>
   </div>
-)
+);
 
 export default WhoWeAre

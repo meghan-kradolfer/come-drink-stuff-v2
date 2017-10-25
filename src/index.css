@@ -559,6 +559,9 @@ html, body {
   height: 100%;
   font-size: 12px; }
 
+img {
+  max-width: 100%; }
+
 h1 {
   font-family: "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 600;
@@ -590,14 +593,18 @@ a {
   max-width: 80rem;
   margin: 0 auto; }
 
-.col-12, .col-10, .col-6, .col-4, .col-3 {
-  display: inline-block; }
+.col-12, .col-10, .col-9, .col-6, .col-4, .col-3 {
+  display: inline-block;
+  vertical-align: middle; }
 
 .col-12 {
   width: 100%; }
 
 .col-10 {
   width: 83.3%; }
+
+.col-9 {
+  width: 75%; }
 
 .col-6 {
   width: 50%; }
@@ -749,6 +756,13 @@ a {
     margin-left: -6px;
     width: 84px; }
 
+.top-banner {
+  background-color: rgba(47, 47, 47, 0.98); }
+  .top-banner h1 {
+    color: #f4f4f4;
+    padding: 10rem 0;
+    text-align: center; }
+
 header {
   font-family: "Crimson Text", serif;
   padding: 1rem 0; }
@@ -776,6 +790,8 @@ header {
       visibility: visible;
       -webkit-transform: scaleX(1);
       transform: scaleX(1); }
+  header nav {
+    text-align: right; }
 
 footer .social {
   text-align: center;
@@ -787,10 +803,3 @@ footer .social {
     cursor: pointer; }
     footer .social i:hover {
       color: #F6B868; }
-
-.home {
-  background-color: rgba(47, 47, 47, 0.98); }
-  .home h1 {
-    color: #f4f4f4;
-    padding: 10rem 0;
-    text-align: center; }

@@ -1,10 +1,11 @@
 import React from 'react'
 
 const OurEvents = () => (
-  <div>
-    <h1>OurEvents</h1>
-    <p>Did you get here via Redux?</p>
+ <div className="our-events">
+   <div className="top-banner">
+      <h1>Our Events</h1>
+   </div>
   </div>
-)
+);
 
 export default OurEvents

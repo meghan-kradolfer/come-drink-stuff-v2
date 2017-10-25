@@ -1,10 +1,11 @@
 import React from 'react'
 
 const ContactUs = () => (
-  <div>
-    <h1>ContactUs</h1>
-    <p>Did you get here via Redux?</p>
+  <div className="contact-us">
+   <div className="top-banner">
+      <h1>Contact Us</h1>
+   </div>
   </div>
-)
+);
 
 export default ContactUs

@@ -17,4 +17,8 @@ header {
     @include link($black);
   }
 
+  nav {
+    text-align: right;
+  }
+
 }
