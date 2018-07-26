@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import ReactGA from 'react-ga';
 
-import App from "./containers/App";
+import App from "./containers/app";
 import "./index.css";
 
 ReactGA.initialize('UA-51792737-1');
